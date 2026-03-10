@@ -22,13 +22,18 @@ head,body {
 
 /*class selector */
 .num{
+<<<<<<< HEAD
     background-color: beige;
+=======
+    font-weight: bold;
+>>>>>>> 4f3b687df5ccc92060a901c9120f8428052de75a
 }
 
 
 /* id selector */
 #submit_button{
     font-weight: bold;
+<<<<<<< HEAD
     color: blue;
     border: 2px solid black;
 }
@@ -40,4 +45,10 @@ head,body {
 .finals{
     background-color: beige;
 }
+=======
+    color: red;
+    border: 2px solid black;
+}
+
+>>>>>>> 4f3b687df5ccc92060a901c9120f8428052de75a
 
