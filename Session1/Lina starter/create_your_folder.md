@@ -14,7 +14,6 @@
 8. You may create a fork if asked;<br>
    *What's happening here:
    - If you don't have write access to the main repository, GitHub will 
-     automatically suggest creating a fork (your personal copy)
    - This is normal and expected!
    - Go ahead and create your fork. 
 9. Congratulations, now you get the gist of exercise workflow!
