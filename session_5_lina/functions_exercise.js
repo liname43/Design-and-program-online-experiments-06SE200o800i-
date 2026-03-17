@@ -5,10 +5,16 @@
 // It should return "too fast" if the reaction time is faster than the threshold, otherwise "valid".
 const threshold = 300; 
 function isFasterThanThreshold(responseTime) {
-    // Write logic to check if the reaction time is faster than the threshold
-
+  let result;
+  if (responseTime < threshold) {
+    result = "too fast";
+  } else {
+    result = "valid";
   }
-  
+  return result
+}
+
+isFasterThanThreshold(200);
 // Call the function with different inputs
 console.log(`Expected output: ${isFasterThanThreshold(200)}`)
 // Expected output: "too fast"
