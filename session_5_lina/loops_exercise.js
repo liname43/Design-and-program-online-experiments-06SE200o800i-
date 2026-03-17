@@ -8,11 +8,13 @@
  
  // Using a for loop, to get the data only stores your reaction time
  // console.log each iterate index and each reactionTime value accordingly in the loop
- let reactionTimes = [];
- // add your code here
+ //let reactionTimes = [];
 
+ for (let i=0; i< recordedTimes.length; i++){ 
+   recordedTimes[i] = recordedTimes[i] - 200;
+   console.log("index:", i, "reactionTime:",recordedTimes[i]);
+}
 
- console.log("reactionTimes: ",reactionTimes);
 
 
  
