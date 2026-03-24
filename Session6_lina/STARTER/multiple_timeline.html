@@ -21,7 +21,7 @@
       const jsPsych = initJsPsych();
 
       const timeline = []; 
-
+      console.log(timeline)
       // Define your trials using the imported plugin.
       const trial1 = {
         type: jsPsychHtmlKeyboardResponse,
@@ -43,8 +43,8 @@
         choices: "NO_KEYS"
       };
      
-      timeline.push(trial1,trial2,trial_end)
-
+      timeline.push(trial1,trial2,trial_end);
+      console.log(timeline)
       // run timeline
       jsPsych.run(timeline);
 
